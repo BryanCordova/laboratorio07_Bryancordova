@@ -1,2 +1,1 @@
-# laboratorio07_Bryancordova
-:)     
+# LAB07_CORDOVA

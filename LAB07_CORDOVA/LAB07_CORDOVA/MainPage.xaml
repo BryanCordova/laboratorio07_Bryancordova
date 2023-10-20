@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LAB07_CORDOVA.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="Black"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Laboratorio 
+                   Bryan Cordova :)" HorizontalTextAlignment="Center" TextColor="#E1F425" FontSize="36"/>
+        </Frame>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout>
+                <Button x:Name="Item1" Text="ExplicitDemo"/>
+                <Button x:Name="Item2" Text="ExplicitControlDemo"/>
+                <Button x:Name="Item3" Text="ImplicitDemo"/>
+                <Button x:Name="Item4" Text="ImplicitControlDemo"/>
+                <Button x:Name="Item5" Text="GlobalDemo"/>
+                <Button x:Name="Item6" Text="InheritanceDemo"/>
+                <Button x:Name="Item7" Text="DynamicDemo"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
